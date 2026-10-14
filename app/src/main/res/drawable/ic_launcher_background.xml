@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep obsidian matte dark gradient background -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:color="#0B0E14" android:offset="0.0" />
+                <item android:color="#131B2B" android:offset="0.5" />
+                <item android:color="#0D111A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Subtle neon cyan glow in top right -->
+    <path
+        android:pathData="M60,0 A48,48 0 0 1 108,48 L108,0 Z"
+        android:fillColor="#154D96FF" />
+    <!-- Subtle neon purple glow in bottom left -->
+    <path
+        android:pathData="M0,60 A48,48 0 0 0 48,108 L0,108 Z"
+        android:fillColor="#159B51E0" />
+</vector>

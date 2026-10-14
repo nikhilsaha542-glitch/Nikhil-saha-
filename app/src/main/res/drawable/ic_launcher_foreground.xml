@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Calculator Shadow / Glow Base -->
+    <path
+        android:pathData="M31,23 L77,23 A9,9 0 0 1 86,32 L86,78 A9,9 0 0 1 77,87 L31,87 A9,9 0 0 1 22,78 L22,32 A9,9 0 0 1 31,23 Z"
+        android:fillColor="#224D96FF" />
+
+    <!-- Main Calculator Body -->
+    <path
+        android:pathData="M33,25 L75,25 A8,8 0 0 1 83,33 L83,77 A8,8 0 0 1 75,85 L33,85 A8,8 0 0 1 25,77 L25,33 A8,8 0 0 1 33,25 Z"
+        android:fillColor="#151C2C"
+        android:strokeWidth="1.5"
+        android:strokeColor="#2F3E5C" />
+
+    <!-- Display Screen -->
+    <path
+        android:pathData="M33,30 L75,30 A4,4 0 0 1 79,34 L79,44 A4,4 0 0 1 75,48 L33,48 A4,4 0 0 1 29,44 L29,34 A4,4 0 0 1 33,30 Z"
+        android:fillColor="#0D131F"
+        android:strokeWidth="1"
+        android:strokeColor="#1F2E4A" />
+
+    <!-- Display Math Graphic / Text Accent -->
+    <path
+        android:pathData="M34,39 L40,39 M37,36 L37,42"
+        android:strokeColor="#4D96FF"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M44,39 L50,39"
+        android:strokeColor="#9B51E0"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round" />
+    <!-- Result Digits Accent (80.85 stylized lines) -->
+    <path
+        android:pathData="M60,36 L66,36 L66,42 L60,42 Z M69,36 L75,36 L75,42 L69,42 Z"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="1.2" />
+
+    <!-- Scientific Row Keys (Top row) -->
+    <path
+        android:pathData="M30,52 H40 V57 H30 Z M44,52 H54 V57 H44 Z M58,52 H68 V57 H58 Z M72,52 H78 V57 H72 Z"
+        android:fillColor="#1F283D" />
+
+    <!-- Number Row 1 -->
+    <path
+        android:pathData="M30,60 H40 V65 H30 Z M44,60 H54 V65 H44 Z M58,60 H68 V65 H58 Z"
+        android:fillColor="#242E46" />
+    <!-- Operator Key (Multiply/Divide) -->
+    <path
+        android:pathData="M72,60 H78 V65 H72 Z"
+        android:fillColor="#FF7597" />
+
+    <!-- Number Row 2 -->
+    <path
+        android:pathData="M30,68 H40 V73 H30 Z M44,68 H54 V73 H44 Z M58,68 H68 V73 H58 Z"
+        android:fillColor="#242E46" />
+    <!-- Operator Key (Plus/Minus) -->
+    <path
+        android:pathData="M72,68 H78 V73 H72 Z"
+        android:fillColor="#FF7597" />
+
+    <!-- Bottom Row (0, Dot, and Glowing Neon Equals) -->
+    <path
+        android:pathData="M30,76 H40 V81 H30 Z M44,76 H54 V81 H44 Z"
+        android:fillColor="#242E46" />
+
+    <!-- Neon Gradient Equals Button (Spans 2 columns) -->
+    <path android:pathData="M58,76 L78,76 A2.5,2.5 0 0 1 80.5,78.5 L80.5,78.5 A2.5,2.5 0 0 1 78,81 L58,81 A2.5,2.5 0 0 1 55.5,78.5 L55.5,78.5 A2.5,2.5 0 0 1 58,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="55"
+                android:startY="78"
+                android:endX="81"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#7F00FF" android:offset="0.0" />
+                <item android:color="#00F0FF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Equals Sign inside neon button -->
+    <path
+        android:pathData="M64,77.5 H72 M64,79.5 H72"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+</vector>

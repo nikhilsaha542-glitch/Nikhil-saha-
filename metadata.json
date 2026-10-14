@@ -1,0 +1,6 @@
+{
+  "name": "Nova Calculator Pro",
+  "description": "Premium modern scientific calculator with futuristic matte dark UI, neon accents, calculation history, and offline math evaluation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

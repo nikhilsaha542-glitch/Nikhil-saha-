@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nova Calculator</string>
+    <string name="title_scientific_calculator">Nova Calculator Pro</string>
+    <string name="clear_history">Clear History</string>
+    <string name="history_title">Calculation History</string>
+    <string name="empty_history">No calculation history yet</string>
+    <string name="empty_history_sub">Your previous calculations and results will appear here</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="settings_title">Settings</string>
+    <string name="theme_title">Appearance</string>
+    <string name="theme_dark">Matte Cyberpunk (Dark)</string>
+    <string name="theme_light">Clean Minimalist (Light)</string>
+    <string name="haptics_title">Haptic Feedback</string>
+    <string name="haptics_summary">Vibrate softly on key taps</string>
+    <string name="precision_title">Decimal Precision</string>
+    <string name="constants_title">Scientific Constants</string>
+    <string name="deg_mode">DEG</string>
+    <string name="rad_mode">RAD</string>
+    <string name="memory_clear">MC</string>
+    <string name="memory_recall">MR</string>
+    <string name="memory_plus">M+</string>
+    <string name="memory_minus">M-</string>
+</resources>
